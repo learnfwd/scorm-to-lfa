@@ -1,0 +1,18 @@
+# Vim
+.*.sw*
+
+# WebStorm
+.idea
+
+# Logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Desktop trash
+Thumbs.db
+.DS_Store
+
+# Users Environment Variables
+.lock-wscript
