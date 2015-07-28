@@ -182,7 +182,7 @@ module.exports = function convert(sourceDir, destDir) {
 
     var metaXML = data.manifest.metadata[0].lom[0];
     var packageJson = {
-      name: 'scorn-' + randomstring.generate(5),
+      name: 'scorm-' + randomstring.generate(5),
       version: '1.0.0',
       keywords: [ 'lfa-book' ],
       book: { title: metaXML.general[0].title[0].string[0]._ },

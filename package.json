@@ -1,13 +1,12 @@
 {
-  "name": "scorn-to-lfa",
+  "name": "scorm-to-lfa",
   "version": "1.0.0",
-  "description": "Converter from SCORN packages to LFA",
-  "main": "index.js",
+  "description": "Converter from SCORM packages to LFA", "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "scorn-to-lfa": "./cli.js"
+    "scorm-to-lfa": "./cli.js"
   },
   "author": "LearnFwd <hello@learnfwd.com>",
   "dependencies": {
